@@ -53,6 +53,21 @@ video {
     margin-bottom: 10px;
 }
 
+.project-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.9); /* Adjust the background color and opacity */
+    padding: 20px;
+    color: #fff; /* Text color */
+    text-align: center;
+}
+
+.project-box h1 {
+    margin-bottom: 10px;
+}
+
 .button-container {
     margin-top: 20px; /* Adjust as needed */
 }
