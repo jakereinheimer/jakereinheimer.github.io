@@ -62,6 +62,7 @@ video {
     padding: 20px;
     color: #fff; /* Text color */
     text-align: center;
+    overflow-y: auto;
 }
 
 .project-box h1 {
