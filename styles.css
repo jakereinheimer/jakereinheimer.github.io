@@ -62,7 +62,8 @@ video {
     padding: 20px;
     color: #fff; /* Text color */
     text-align: center;
-    overflow-y: auto;
+    max-height: 80%; /* Set the maximum height as needed */
+    overflow: auto; /* Enable vertical scrolling if content exceeds max height */
 }
 
 .project-box h1 {
