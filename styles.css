@@ -47,6 +47,8 @@ video {
     padding: 20px;
     color: #fff; /* Text color */
     text-align: center;
+    max-height: 80%; /* Set the maximum height as needed */
+    overflow: auto; /* Enable vertical scrolling if content exceeds max height */
 }
 
 .text-box h1 {
